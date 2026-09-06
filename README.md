@@ -3,7 +3,7 @@
 
 A compact, customizable 3-key mechanical macropad designed for the Hackpad hardware competition. Powered by a Seeeduino XIAO micro-controller.
 
-## 📌 Features
+##  Features
 * **Keys:** 3x Mechanical Switches (Cherry MX footprint).
 * **Brain:** Seeeduino XIAO MCU.
 * **Architecture:** Custom-designed PCB with an integrated 3D-printed enclosure.
@@ -11,14 +11,14 @@ A compact, customizable 3-key mechanical macropad designed for the Hackpad hardw
 
 ---
 
-## 🛠️ Repository Structure
+##  Repository Structure
 * `/hardware` - KiCad PCB source files, schematic, and Gerber production files.
 * `/cad` - 3D model files (`.stl`, `.step`, Tinkercad / OpenSCAD source) for the top plate and enclosure.
 * `/firmware` - Code and keymap configuration files for the MCU.
 
 ---
 
-## 🔧 Production & Assembly
+##  Production & Assembly
 1. **PCB:** Order using the Gerber files located in the `/hardware` folder (`.gbr`, `.drl`, `.csv`, `.pos`).
 2. **3D Printing:** Print `case.stl` and `plate.stl` with 0.2mm layer height (PLA or PETG).
 3. **Assembly:**
@@ -28,6 +28,6 @@ A compact, customizable 3-key mechanical macropad designed for the Hackpad hardw
 
 ---
 
-## 🤝 Credits & Acknowledgments
+##  Credits & Acknowledgments
 * Designed for the **Hackpad** hardware event.
 * Special thanks to the mechanical keyboard and open-source CAD community for assistance in refining the enclosure geometry and support structures.
