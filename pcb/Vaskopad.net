@@ -1,0 +1,618 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Vasko\\Downloads\\Vaskopad\\Vaskopad.kicad_sch")
+		(date "2026-09-08T14:43:44")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Vaskopad.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "SW1")
+			(value "SW_Push")
+			(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "Основен лист")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vaskopad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e33063a-bf3c-4a97-878b-ec310da9b657")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SW_Push")
+			(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "Основен лист")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vaskopad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc1f37fe-fdea-47b0-88f2-810a1e790949")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_Push")
+			(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "Основен лист")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vaskopad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1f517ba1-f9a9-4022-947a-918c16ced0dc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "MOUDLE-SEEEDUINO-XIAO")
+			(footprint "footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM")
+			(fields
+				(field
+					(name "Footprint") "footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "XIAO_RP2040")
+				(part "MOUDLE-SEEEDUINO-XIAO")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Основен лист")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vaskopad.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "702cf1ed-577e-4533-990a-a73b873d3307")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "XIAO_RP2040")
+			(part "MOUDLE-SEEEDUINO-XIAO")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MOUDLE-SEEEDUINO-XIAO")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PA02_A0_D0")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "PA4_A1_D1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "PA10_A2_D2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "PA11_A3_D3")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "PA8_A4_D4_SDA")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "PA9_A5_D5_SCL")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "PB08_A6_D6_TX")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "PB09_A7_D7_RX")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "PA7_A8_D8_SCK")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "PA5_A9_D9_MISO")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "PA6_A10_D10_MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "5V")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "XIAO_RP2040")
+			(uri "C:/Users/Vasko/Downloads/kicad_care_package/kicad_care_package/XIAO_RP2040.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "Net-(U1-PA5_A9_D9_MISO)")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "PA5_A9_D9_MISO_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(U1-PA6_A10_D10_MOSI)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "PA6_A10_D10_MOSI_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(U1-PA7_A8_D8_SCK)")
+			(class "Default")
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "PA7_A8_D8_SCK_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "unconnected-(U1-3V3-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "3V3_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "unconnected-(U1-5V-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "5V_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "unconnected-(U1-PA02_A0_D0-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "PA02_A0_D0_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "unconnected-(U1-PA4_A1_D1-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "PA4_A1_D1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "unconnected-(U1-PA8_A4_D4_SDA-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "PA8_A4_D4_SDA_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(U1-PA9_A5_D5_SCL-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "PA9_A5_D5_SCL_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(U1-PA10_A2_D2-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "PA10_A2_D2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(U1-PA11_A3_D3-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "PA11_A3_D3_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U1-PB08_A6_D6_TX-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "PB08_A6_D6_TX_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(U1-PB09_A7_D7_RX-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "PB09_A7_D7_RX_8")
+				(pintype "passive")
+			)
+		)
+	)
+)
