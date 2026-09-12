@@ -3,9 +3,11 @@
 A simple 3-key mechanical macropad built for the Hackpad competition using a Seeeduino XIAO and Cherry MX switches.
 
 ## Repo Structure
-* `pcb/` - KiCad PCB design files and production Gerbers
+* `production/` - KiCad PCB design files and production Gerbers and firmware
 * `cad/` - Enclosure and top plate 3D models (`.step` files included)
-* `firmware/` - Code and keymap for the Seeeduino XIAO
+
+![3D view](3D_view.png)
+![design_pcb](design.jfif)
 
 ## Assembly
 1. Print the case and plate files from the `cad/` folder.
